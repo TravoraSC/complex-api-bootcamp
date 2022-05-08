@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url("collegeHall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  margin: 3% 20% 0 20%;
+  color: white;
+}
+h1, h2, p, div{
+  align-self: center;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: 5rem;
+  font-style: italic;
+}
+
+.slogan {
+  margin: 1vh 0 5vh 0;
+  font-size: 1.2rem;
+}
+
+input, button {
+  display: inline;
+  height: 2rem;
+  font-size: 1.1rem;
+}
+
+input {
+  width: 23rem;
+  text-align: center;
+}
+
+button{
+  background-color: #7bb4cceb;
+  color: white;
+}
+
+.backgroundColor {
+  background-color: #76aabf99;
+  height: fit-content;
+  margin-top: 2rem;
+  width: 44rem;
+  text-align: center;
+}
+
+span {
+  margin-right: .5rem;
+}
+
+ul {
+  height: 25vh;
+}
